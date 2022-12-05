@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Speaker Registration Form</title>
+    </head>
+    <body>
+        <h1>Speaker Registration Form</h1>
+        <form action="index2.html" method="POST">
+            <label for="Name">Full Name:</label>
+            <input id="FullName" required type="text" name="FullName" value="" size="18" maxlength="150" placeholder="Ex. Juan J. Jeromino Jr."/>
+            <br/><br/>
+
+            <label for="Email">Email:</label>
+            <input id="Email" required type="email" name="Email" value="" size="22" maxlength="150" placeholder="Ex. abcdefg@email.com">
+            <br/><br/>
+
+            <label for="ContactNo">Contact Number:</label>
+            <input id="ContactNo" required type="tel" name="ContactNo" value="" size="12" pattern="^09[0-9]{2} [0-9]{3} [0-9]{4}" placeholder="Ex. 0912 345 6789"/>
+            <br/><br/>
+
+            <label for="JobTitle">Job Title:</label>
+            <input id="JobLabel" required type="text" name="JobLabel" value="" size="19" maxlength="100">
+            <br/><br/>
+
+            <label for="Organization">Organization:</label>
+            <input id="Organization" type="text" name="Organization" value="" size="15" maxlength="100">
+            <br/><br/>
+
+            <label for="Location">Location:</label>
+            <input id="Location" type="text" name="Location" value="" size="19" maxlength="100">
+            <br/>
+            <p>Do you need assistance with your flight reservation?</p>
+            <input id="Yes" type="radio" name="flight_reservation" value="Y" required>
+            <label for="Yes">Yes</label>
+            <input id="No" type="radio" name="flight_reservation" value="N">
+            <label for="No">No</label>
+            <hr>
+            <p>What is your presentation type?</p>
+            <input id="Lecture" type="radio" name="presentation_type" value="L" required>
+            <label for="Lecture">Lecture</label><br/>
+            <input id="CaseStudy" type="radio" name="presentation_type" value="CS">
+            <label for="CaseStudy">Case Study</label><br/>
+            <input id="GroupDiscussion" type="radio" name="presentation_type" value="GD">
+            <label for="GroupDiscussion">Group Discussion</label><br/>
+            <input id="ProductDemo" type="radio" name="presentation_type" value="PD">
+            <label for="ProductDemo">Product Demo</label>
+            <br/><br/>
+            <label for="Title">Title of your presentation:</label><br/>
+            <input id="Title" required type="text" name="Title" value="" size="28" maxlength="150"/>
+            <p>Brief Description about your presentation:</p>
+            <textarea name="Description" required rows="5" cols="26" placeholder="My presentation is about:"></textarea><br/>
+            
+
+
+            <input type="submit">
+        </form>
+    </body>
+</html>
