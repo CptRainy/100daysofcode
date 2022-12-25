@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+
+    <body>
+        <header id="header">
+            <div class="logo">
+                <a href="#hero"><img src="logo.png" id="header-img"/></a>
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a id="nav-link" href="">Products</a></li>
+                    <li><a id="nav-link" href="">How Its Made</a></li>
+                    <li><a id="nav-link" href="">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="hero" class="hero">
+                <div class="hero-wrapper">
+                <div class="hero-text">
+                    <h1 class="hero-maintext">Captain's Cookies</h1>
+                    <p class="hero-subtext">Baking Goods for sale!</p>
+                    <form action="https://www.freecodecamp.com/email-submit" method="post">
+                        <input type="email" id="email" name="email" placeholder="Enter your email here!" required/>
+                        <br/><input type="submit" id="submit" name="submit" value="Subscribe"/>
+                    </form>
+                </div>
+                </div> 
+            </div>
+            <div class="products" id="products">
+                <h1>Products</h1>
+                <div class="gallery">
+                    <img src="ChocolateChip.jpg"/>
+                    <img src="CinnamonOatmeal.jpg"/>
+                    <img src="ChocolateCrinkles.jpg"/>
+                    <img src="RedVelvetCrinkles.jpg"/>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

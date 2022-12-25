@@ -1,0 +1,151 @@
+body,main,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #545453;
+    overflow-x: hidden;
+    font-family:'Franklin Gothic Medium', sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    width: 100%;
+    background-color: #545453;
+    overflow: auto;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+    float: right;
+}
+
+nav li{
+    float: left;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 30px;
+    height: 59px;
+}
+
+nav a {
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffbd59;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #ffbd59;
+    color: #545453;
+
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("placeholder.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-wrapper {
+    height: 300px;
+    width: 100%;
+    color:black;
+    top:72px;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-maintext{
+    color: #ffbd59;
+    margin-bottom: -10px;
+    font-size: 60px;
+}
+
+.hero-subtext {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+#email {
+    width: 200px;
+    height: 20px;
+}
+
+#submit {
+    margin-top: 10px;
+    background-color: #ffbd59;
+    border: 2px solid #ffbd59;
+    padding: 5px 10px;
+    border-radius: 12px;
+    text-align: center;
+    height: 40px;
+    width: 110px;
+    font-weight:  bolder;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+  
+:-moz-placeholder {
+    text-align: center;
+}
+
+#submit:hover {
+    cursor: pointer;
+
+}
+
+
+.products h1{
+    margin: 0;
+    padding: 15px;
+    background-color:#ffbd59;
+    text-align: center;
+    letter-spacing: 5px;
+    color:  #545453;
+}
+
+.gallery {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 250px;
+    height: 200px;
+    object-fit: fill;
+    border-radius: 10px;
+}
