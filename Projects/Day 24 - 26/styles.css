@@ -121,7 +121,7 @@ nav a:hover {
 }
 
 
-.products h1{
+.products h1, .made h1{
     margin: 0;
     padding: 15px;
     background-color:#ffbd59;
@@ -148,4 +148,46 @@ nav a:hover {
     height: 200px;
     object-fit: fill;
     border-radius: 10px;
+}
+
+.made{
+    background-color: #545453;
+    text-align: center;
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+
+.made figcaption {
+    margin-top: 5px;
+}
+
+.made iframe {
+    display: block;
+    margin: auto;
+}
+
+.navbar-space {
+    position: relative;
+    top: -50px;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.p1,.p2,.p3 {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #ffbd59;
+    display: block;
+}
+
+.p1h, .p2h, .p3h{
+    color: #ffbd59;
 }
